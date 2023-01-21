@@ -1,0 +1,146 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar{
+    background:yellow;
+    position: fixed;
+    width: 100%;
+    max-width:100%;
+    height: 40px;   
+}
+
+#navlist{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 8px;
+    font-weight: 80px;   
+}
+
+.nav{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    padding: 20px;
+
+}
+
+.Welcome{
+    background:yellowgreen;
+    width: 100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Welcome>h1{
+    color: black;
+    font-size:6rem ;
+    font-weight: bolder;
+}
+
+.Welcome>p{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: italic;
+    
+}
+
+ .Projects{ 
+    background:yellow;
+    width: 100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;   
+}
+
+
+ .Projects>h1{
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin:20px;
+    text-align: center;
+ }
+
+
+
+.project-grid{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 100% 100%;
+    grid-gap:3%;
+    padding-left: 5%;
+    
+
+}
+
+ .Contact{
+    background:orange;
+    width: 100%;
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ #contact-links a{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+padding: 40px;
+text-decoration: none;
+text-align: center;
+
+}
+#contact-links{
+ margin: 200px;
+ text-align: center;
+}
+
+#profile-link{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+font-weight: bolder;
+background-color: black;
+width:250px;
+padding:20px;
+text-decoration: none;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+color:aliceblue;
+
+border-radius: 5px;
+cursor:pointer;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+#profile-link:hover,#profile-link:active,#profile-link:focus{
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width:800px){
+body{
+    color:white
+}
+}
